@@ -21,7 +21,7 @@ int main(int argc)
                      {13, 14, 15, 16} };
 
 	int column = 0;
-	scanf_s("%d", &column);
+	scanf("%d", &column);
     int res = count(column, &matrix[0]);
 
     printf("\nSum of numbers in %d column is %d\n", column, res);
